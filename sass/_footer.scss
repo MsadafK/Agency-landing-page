@@ -1,0 +1,28 @@
+// FOOTER
+.footer {
+  background-color: $light-moderate-cyan;
+  padding: 4rem 1rem;
+  text-align: center;
+  color: #2c7566;
+
+  a {
+    color: #2c7566;
+  }
+
+  &__nav-list {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem 0 4rem;
+  }
+
+  &__title {
+    font-size: 2rem;
+  }
+
+  &__social-icons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+}

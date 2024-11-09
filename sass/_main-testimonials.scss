@@ -1,0 +1,42 @@
+// MAIN
+// testimonials section
+.testimonials {
+  padding: 4rem 0;
+
+  &__title {
+    text-align: center;
+    font-family: $font-fraunces;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    color: $grayish-blue;
+    font-size: 1rem;
+  }
+
+  &__container {
+    text-align: center;
+
+    .testimonial-card {
+      padding: 3.5rem 1rem 0;
+
+      &__image {
+        border-radius: 50%;
+        width: 25%;
+      }
+
+      &__name {
+        font-family: "fraunces", sans-serif;
+        font-weight: 900;
+        margin-bottom: 0.5rem;
+      }
+
+      &__text {
+        font-size: 0.85rem;
+        margin: 1.5rem;
+      }
+
+      &__designation {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

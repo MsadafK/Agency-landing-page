@@ -1,0 +1,82 @@
+// BASE STYLES
+body {
+  overflow-x: hidden;
+  font-family: $font-barlow;
+}
+
+.sr-only {
+  display: none;
+}
+
+.mobile-nav__list-item {
+  cursor: pointer;
+}
+
+// Link styles
+.mobile-nav__link {
+  color: $very-dark-grayish-blue;
+
+  &:active,
+  &:hover {
+    background-color: $yellow;
+    color: $very-dark-desaturated-blue;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
+    text-transform: uppercase;
+  }
+}
+
+.desktop-nav__link {
+  transition: background-color 0.3s ease, color 0.3s ease, padding 0.3s ease;
+
+  &:active,
+  &:hover {
+    font-family: $font-fraunces;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.43);
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+  }
+}
+
+.grid-section__item--second-link,
+.forth-item-grid-link {
+  &:active,
+  &:hover {
+    border-bottom: 5px solid $yellow;
+  }
+}
+
+.footer__nav-link {
+  &:active,
+  &:hover {
+    color: $white;
+  }
+}
+
+.footer__social-icon {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+// Image styles
+.hero__image,
+.grid-section__image,
+.gallery__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.footer__social-icon-svg path {
+  transition: fill 0.3s ease;
+
+  &:hover {
+    fill: #fff;
+  }
+}
