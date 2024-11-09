@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", (event) => {
-  const hamburgerIcon = document.querySelector(".hamburger-icon path");
-  const mobileNavContainer = document.querySelector(".mobile-nav-container");
+  const hamburgerIcon = document.querySelector(
+    ".header__hamburger-icon svg path"
+  );
+  const mobileNavContainer = document.querySelector(".mobile-nav");
 
   function handleHamburgerIconColor() {
     if (hamburgerIcon.getAttribute("fill") == "hsla(0, 0%, 100%)")
